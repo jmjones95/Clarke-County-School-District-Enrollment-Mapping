@@ -57,7 +57,7 @@
         var hash = new L.Hash(map);
         map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a>');
         var bounds_group = new L.featureGroup([]);
-        var basemap0 = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        var basemap0 = L.tileLayer('https://api.mapbox.com/styles/v1/jmjones95/cjgh60634000x2sphg08agii9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoiam1qb25lczk1IiwiYSI6ImNqZWl4cm0zbDBsamQzM21lM3F2cGo1OWUifQ._AGYlpHNnqlQci_c-vNKOg', {
             attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
             maxZoom: 28
         });
